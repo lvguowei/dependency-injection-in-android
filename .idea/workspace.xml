@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d949f047-f6ad-4da0-931c-380430191777" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/composition/ActivityCompositionRoot.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/composition/AppCompositionRoot.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/composition/PresentationCompositionRoot.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/questions/FetchQuestionDetailsUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/questions/FetchQuestionsUsecase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/ScreensNavigator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/activities/BaseActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/dialogs/DialogsNavigator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/fragments/BaseFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/viewsmvc/BaseViewMvc.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/viewsmvc/ViewMvcFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/questiondetails/QuestionDetailsViewMvc.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/questionslist/QuestionsListFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/questionslist/QuestionsListViewMvc.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_frame.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/MyApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/MyApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/questiondetails/QuestionDetailsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/questiondetails/QuestionDetailsActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/questionslist/QuestionsListActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/questionslist/QuestionsListActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1khkTxUaQB7qCpa7HUXYXdp4HX0" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-view/home/guowei/Work/examples/course-android-dependency-injection-with-dagger-2/app/src/main/java/com/techyourchance/dagger2course/screens/common/toolbar/MyToolbar.kt_SELECTED" value="MyToolbar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-preview/home/guowei/Work/examples/course-android-dependency-injection-with-dagger-2/app/src/main/java/com/techyourchance/dagger2course/screens/common/toolbar/MyToolbar.kt_selected" value="Custom views" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="course-android-dependency-injection-with-dagger-2.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d949f047-f6ad-4da0-931c-380430191777" name="Default Changelist" comment="" />
+      <created>1606160221166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606160221166</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2408" y="447" width="923" height="1082" key="#com.intellij.ide.util.MemberChooser" timestamp="1609191369343">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="2408" y="447" width="923" height="1082" key="#com.intellij.ide.util.MemberChooser/0.0.3840.2160@0.0.3840.2160" timestamp="1609191369343" />
+    <state x="892" y="-18" width="2045" height="2148" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609443878630">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="892" y="-18" width="2045" height="2148" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1609443878630" />
+    <state x="1491" y="761" width="848" height="526" key="AndroidCreateResourceFileDialog" timestamp="1609527500109">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1491" y="761" width="848" height="526" key="AndroidCreateResourceFileDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1609527500109" />
+    <state width="3708" height="464" key="GridCell.Tab.0.bottom" timestamp="1609493005374">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3708" height="464" key="GridCell.Tab.0.bottom/0.0.3840.2160@0.0.3840.2160" timestamp="1609493005374" />
+    <state width="3708" height="464" key="GridCell.Tab.0.center" timestamp="1609493005374">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3708" height="464" key="GridCell.Tab.0.center/0.0.3840.2160@0.0.3840.2160" timestamp="1609493005374" />
+    <state width="3708" height="464" key="GridCell.Tab.0.left" timestamp="1609493005374">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3708" height="464" key="GridCell.Tab.0.left/0.0.3840.2160@0.0.3840.2160" timestamp="1609493005374" />
+    <state width="3708" height="464" key="GridCell.Tab.0.right" timestamp="1609493005374">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3708" height="464" key="GridCell.Tab.0.right/0.0.3840.2160@0.0.3840.2160" timestamp="1609493005374" />
+    <state x="2530" y="721" width="689" height="775" key="refactoring.ChangeSignatureDialog" timestamp="1609273643332">
+      <screen x="0" y="56" width="3840" height="2104" />
+    </state>
+    <state x="2530" y="721" width="689" height="775" key="refactoring.ChangeSignatureDialog/0.56.3840.2104@0.56.3840.2104" timestamp="1609273643332" />
+    <state x="1106" y="0" width="1624" height="2156" key="search.everywhere.popup" timestamp="1609533942495">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1106" y="0" width="1624" height="2156" key="search.everywhere.popup/0.0.3840.2160@0.0.3840.2160" timestamp="1609533942495" />
+  </component>
+</project>
