@@ -1,16 +1,16 @@
 package com.techyourchance.dagger2course
 
 import android.app.Application
-import com.techyourchance.dagger2course.common.composition.AppCompositionRoot
+import com.techyourchance.dagger2course.common.dependencyinjection.app.AppComponent
+import com.techyourchance.dagger2course.common.dependencyinjection.app.AppModule
+import com.techyourchance.dagger2course.common.dependencyinjection.app.DaggerAppComponent
 
 class MyApplication : Application() {
 
-  lateinit var appCompositionRoot: AppCompositionRoot
+  lateinit var appComponent: AppComponent
 
   override fun onCreate() {
-    appCompositionRoot = AppCompositionRoot()
+    appComponent = DaggerAppComponent.builder().appModule(AppModule(this)).build()
     super.onCreate()
   }
-
-
 }

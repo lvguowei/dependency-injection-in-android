@@ -10,24 +10,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d949f047-f6ad-4da0-931c-380430191777" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/composition/ActivityCompositionRoot.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/composition/AppCompositionRoot.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/composition/PresentationCompositionRoot.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/questions/FetchQuestionDetailsUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/questions/FetchQuestionsUsecase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/ScreensNavigator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/activities/BaseActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/dialogs/DialogsNavigator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/fragments/BaseFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/viewsmvc/BaseViewMvc.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/viewsmvc/ViewMvcFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/questiondetails/QuestionDetailsViewMvc.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/questionslist/QuestionsListFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/questionslist/QuestionsListViewMvc.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_frame.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_2_30_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_14_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/dependencyinjection/activity/ActivityComponent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/dependencyinjection/activity/ActivityModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/dependencyinjection/activity/ActivityScope.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/dependencyinjection/app/AppComponent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/dependencyinjection/app/AppModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/dependencyinjection/app/ApplicationScope.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/dependencyinjection/presentation/PresentationComponent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/dependencyinjection/presentation/PresentationModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/dependencyinjection/presentation/PresentationScope.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_72.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_72.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_3_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/course-android-dependency-injection-with-dagger-2.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/dependency-injection-in-android.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/course-android-dependency-injection-with-dagger-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/dependency-injection-in-android.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/MyApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/MyApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/composition/ActivityCompositionRoot.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/composition/AppCompositionRoot.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/composition/PresentationCompositionRoot.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/activities/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/activities/BaseActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/fragments/BaseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/fragments/BaseFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/questiondetails/QuestionDetailsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/questiondetails/QuestionDetailsActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/questionslist/QuestionsListActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/questionslist/QuestionsListActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/questionslist/QuestionsListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/questionslist/QuestionsListFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
@@ -47,6 +87,7 @@
       <list>
         <option value="layoutResourceFile" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Annotation" />
       </list>
     </option>
   </component>
@@ -60,9 +101,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android-custom-view/home/guowei/Work/examples/course-android-dependency-injection-with-dagger-2/app/src/main/java/com/techyourchance/dagger2course/screens/common/toolbar/MyToolbar.kt_SELECTED" value="MyToolbar" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="multi-representation-preview/home/guowei/Work/examples/course-android-dependency-injection-with-dagger-2/app/src/main/java/com/techyourchance/dagger2course/screens/common/toolbar/MyToolbar.kt_selected" value="Custom views" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.techyourchance.dagger2course.common.dependencyinjection.presentation" />
+      <recent name="com.techyourchance.dagger2course.common.dependencyinjection.app" />
+      <recent name="com.techyourchance.dagger2course.common.dependencyinjection.activity" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -73,7 +122,7 @@
       </method>
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="course-android-dependency-injection-with-dagger-2.app" />
+      <module name="dependency-injection-in-android.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -147,33 +196,37 @@
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="892" y="-18" width="2045" height="2148" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1609443878630" />
+    <state x="1116" y="555" width="1683" height="771" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1609699143782">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1116" y="555" width="1683" height="771" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1609699143782" />
     <state x="1491" y="761" width="848" height="526" key="AndroidCreateResourceFileDialog" timestamp="1609527500109">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="1491" y="761" width="848" height="526" key="AndroidCreateResourceFileDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1609527500109" />
-    <state width="3708" height="464" key="GridCell.Tab.0.bottom" timestamp="1609493005374">
+    <state width="3708" height="459" key="GridCell.Tab.0.bottom" timestamp="1609707337797">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3708" height="464" key="GridCell.Tab.0.bottom/0.0.3840.2160@0.0.3840.2160" timestamp="1609493005374" />
-    <state width="3708" height="464" key="GridCell.Tab.0.center" timestamp="1609493005374">
+    <state width="3708" height="459" key="GridCell.Tab.0.bottom/0.0.3840.2160@0.0.3840.2160" timestamp="1609707337797" />
+    <state width="3708" height="459" key="GridCell.Tab.0.center" timestamp="1609707337797">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3708" height="464" key="GridCell.Tab.0.center/0.0.3840.2160@0.0.3840.2160" timestamp="1609493005374" />
-    <state width="3708" height="464" key="GridCell.Tab.0.left" timestamp="1609493005374">
+    <state width="3708" height="459" key="GridCell.Tab.0.center/0.0.3840.2160@0.0.3840.2160" timestamp="1609707337797" />
+    <state width="3708" height="459" key="GridCell.Tab.0.left" timestamp="1609707337796">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3708" height="464" key="GridCell.Tab.0.left/0.0.3840.2160@0.0.3840.2160" timestamp="1609493005374" />
-    <state width="3708" height="464" key="GridCell.Tab.0.right" timestamp="1609493005374">
+    <state width="3708" height="459" key="GridCell.Tab.0.left/0.0.3840.2160@0.0.3840.2160" timestamp="1609707337796" />
+    <state width="3708" height="459" key="GridCell.Tab.0.right" timestamp="1609707337797">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3708" height="464" key="GridCell.Tab.0.right/0.0.3840.2160@0.0.3840.2160" timestamp="1609493005374" />
+    <state width="3708" height="459" key="GridCell.Tab.0.right/0.0.3840.2160@0.0.3840.2160" timestamp="1609707337797" />
     <state x="2530" y="721" width="689" height="775" key="refactoring.ChangeSignatureDialog" timestamp="1609273643332">
       <screen x="0" y="56" width="3840" height="2104" />
     </state>
     <state x="2530" y="721" width="689" height="775" key="refactoring.ChangeSignatureDialog/0.56.3840.2104@0.56.3840.2104" timestamp="1609273643332" />
-    <state x="1106" y="0" width="1624" height="2156" key="search.everywhere.popup" timestamp="1609533942495">
+    <state x="1106" y="0" width="1624" height="2156" key="search.everywhere.popup" timestamp="1609707345448">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1106" y="0" width="1624" height="2156" key="search.everywhere.popup/0.0.3840.2160@0.0.3840.2160" timestamp="1609533942495" />
+    <state x="1106" y="0" width="1624" height="2156" key="search.everywhere.popup/0.0.3840.2160@0.0.3840.2160" timestamp="1609707345448" />
   </component>
 </project>
