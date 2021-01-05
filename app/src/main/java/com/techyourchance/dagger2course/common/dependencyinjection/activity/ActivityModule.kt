@@ -6,12 +6,7 @@ import dagger.Module
 import dagger.Provides
 
 @Module
-class ActivityModule(
-  private val activity: AppCompatActivity
-) {
-
-  @Provides
-  fun activity() = activity
+object ActivityModule {
 
   @Provides
   @ActivityScope
@@ -22,4 +17,5 @@ class ActivityModule(
 
   @Provides
   fun supportFragmentManager(activity: AppCompatActivity) = activity.supportFragmentManager
+
 }

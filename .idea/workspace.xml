@@ -10,23 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d949f047-f6ad-4da0-931c-380430191777" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/dependencyinjection/service/ServiceComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/dependencyinjection/service/ServiceModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/dependencyinjection/service/ServiceScope.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/service/BaseService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/dialogs/BaseDialog.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -38,9 +21,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/dependencyinjection/activity/ActivityComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/dependencyinjection/activity/ActivityComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/dependencyinjection/activity/ActivityModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/dependencyinjection/activity/ActivityModule.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/dependencyinjection/app/AppComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/common/dependencyinjection/app/AppComponent.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/dialogs/ServerErrorDialogFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/dialogs/ServerErrorDialogFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_question_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_question_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/activities/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techyourchance/dagger2course/screens/common/activities/BaseActivity.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,9 +185,9 @@
       <screen x="0" y="56" width="3840" height="2104" />
     </state>
     <state x="2530" y="721" width="689" height="775" key="refactoring.ChangeSignatureDialog/0.56.3840.2104@0.56.3840.2104" timestamp="1609273643332" />
-    <state x="1106" y="0" width="1624" height="2156" key="search.everywhere.popup" timestamp="1609847922598">
+    <state x="1106" y="0" width="1624" height="2156" key="search.everywhere.popup" timestamp="1609849083865">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1106" y="0" width="1624" height="2156" key="search.everywhere.popup/0.0.3840.2160@0.0.3840.2160" timestamp="1609847922598" />
+    <state x="1106" y="0" width="1624" height="2156" key="search.everywhere.popup/0.0.3840.2160@0.0.3840.2160" timestamp="1609849083865" />
   </component>
 </project>
