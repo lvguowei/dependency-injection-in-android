@@ -1,21 +1,25 @@
 package com.techyourchance.dagger2course.common.dependencyinjection.activity
 
 import androidx.appcompat.app.AppCompatActivity
-import com.techyourchance.dagger2course.screens.common.ScreensNavigator
+import com.techyourchance.dagger2course.screens.common.ScreensNavigatorImpl
+import com.techyourchance.dagger2course.screens.common.viewsmvc.ScreensNavigator
+import dagger.Binds
 import dagger.Module
 import dagger.Provides
 
 @Module
-object ActivityModule {
+abstract class ActivityModule {
 
-  @Provides
   @ActivityScope
-  fun screensNavigator(activity: AppCompatActivity) = ScreensNavigator(activity)
+  @Binds
+  abstract fun screensNavigator(screensNavigator: ScreensNavigatorImpl): ScreensNavigator
 
-  @Provides
-  fun layoutInflater(activity: AppCompatActivity) = activity.layoutInflater
+  companion object {
 
-  @Provides
-  fun supportFragmentManager(activity: AppCompatActivity) = activity.supportFragmentManager
+    @Provides
+    fun layoutInflater(activity: AppCompatActivity) = activity.layoutInflater
 
+    @Provides
+    fun supportFragmentManager(activity: AppCompatActivity) = activity.supportFragmentManager
+  }
 }

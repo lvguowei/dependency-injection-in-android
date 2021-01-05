@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.techyourchance.dagger2course.questions.FetchQuestionsUseCase
 import com.techyourchance.dagger2course.questions.Question
-import com.techyourchance.dagger2course.screens.common.ScreensNavigator
 import com.techyourchance.dagger2course.screens.common.dialogs.DialogsNavigator
 import com.techyourchance.dagger2course.screens.common.fragments.BaseFragment
+import com.techyourchance.dagger2course.screens.common.viewsmvc.ScreensNavigator
 import com.techyourchance.dagger2course.screens.common.viewsmvc.ViewMvcFactory
 import kotlinx.coroutines.*
 import javax.inject.Inject
