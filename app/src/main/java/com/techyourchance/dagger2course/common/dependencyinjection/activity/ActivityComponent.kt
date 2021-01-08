@@ -2,6 +2,7 @@ package com.techyourchance.dagger2course.common.dependencyinjection.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import com.techyourchance.dagger2course.common.dependencyinjection.presentation.PresentationComponent
+import com.techyourchance.dagger2course.common.dependencyinjection.presentation.PresentationModule
 import dagger.BindsInstance
 import dagger.Subcomponent
 
@@ -15,7 +16,7 @@ interface ActivityComponent {
    *
    * But for clarity purpose, we keep them anyway
    */
-  fun newPresentationComponent(): PresentationComponent
+  fun newPresentationComponent(presentationModule: PresentationModule): PresentationComponent
 
   @Subcomponent.Builder
   interface Builder {
